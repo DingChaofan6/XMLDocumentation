@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ase_assignment_demo.tests</name>
+    </assembly>
+    <members>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.SetUp">
+            <summary>
+            set up the testing environment and create a new instance of AppCanvas
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestWhetherMoveTo_CorrectlyUpdatesThePenPosition">
+            <summary>
+            test whether the MoveTo method correctly updates the pen's position
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestWhetherDrawTo_CorrectlyUpdatesThePenPosition">
+            <summary>
+            test whether the DrawTo method correctly updates the pen's position
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestCircle_ValidRadius">
+            <summary>
+            Test whether the Circle method handles valid radius correctly
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestCircle_InvalidRadius">
+            <summary>
+            Test whether the Circle method throws exception for invalid radius
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestClear">
+            <summary>
+            Test whether the Clear method works correctly
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestSetColour_ValidColors">
+            <summary>
+            Test whether the SetColour method correctly updates pen color with valid RGB values
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestSetColour_InvalidColors">
+            <summary>
+            Test whether the SetColour method throws exception for invalid RGB values
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestRect_ValidDimensions">
+            <summary>
+            Test whether the Rect method handles valid dimensions correctly
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestRect_InvalidDimensions">
+            <summary>
+            Test whether the Rect method throws exception for invalid dimensions
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestReset">
+            <summary>
+            Test whether the Reset method correctly resets pen position to origin
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestTri_ValidDimensions">
+            <summary>
+            Test whether the Tri method handles valid dimensions correctly
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestTri_InvalidDimensions">
+            <summary>
+            Test whether the Tri method throws exception for invalid dimensions
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestWriteText">
+            <summary>
+            Test whether the WriteText method correctly writes text to canvas
+            </summary>
+        </member>
+        <member name="M:ase_assignment_demo.Tests.AppCanvastests.TestGetBitmap">
+            <summary>
+            Test whether the getBitmap method returns a valid bitmap object
+            </summary>
+        </member>
+    </members>
+</doc>
